@@ -1,0 +1,17 @@
+/**
+ * Global styles should be imported here.
+ * If you're going to style another item/component that does not have 
+ * an individual stylesheet, create it and import it here.
+ */
+
+@import './colors';
+@import './global';
+@import './buttons';
+@import './titles';
+@import './fonts';
+@import './forms';
+@import './tabs';
+
+.contextMenuOpen {
+	background-color: rgba(0,0,0,0.5);
+}

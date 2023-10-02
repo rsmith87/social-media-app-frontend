@@ -1,0 +1,7 @@
+a.tab.active {
+	border-bottom: 1px solid white;
+}
+
+a.tab:not(.active) {
+	border-bottom: 1px solid lightgray;
+}

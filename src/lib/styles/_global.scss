@@ -1,0 +1,52 @@
+@import './colors';
+
+body {
+	margin: 0;
+	color: black;
+	background-color: #FBFAF5;
+	font-family: 'Palanquin';
+	height: 100vh;
+}
+  
+main {
+	padding: 1rem;
+	margin: 2rem auto;
+	max-width: 40rem;
+}
+
+.bg {
+	overflow-x: hidden;
+}
+
+main {
+	min-height: calc(100vh - 160px);
+}
+
+tr {
+	border-bottom: 1px solid;
+	height: auto;
+	&.hide {
+		display: none;
+	}
+}
+
+td {
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100px;
+}
+
+h2 {
+	width: 100%;
+}
+
+.hide {
+	display: none;
+	height: 0;
+	transition: height 0.5s ease-in-out 
+}
+
+i.red {
+	color: red !important;
+}
