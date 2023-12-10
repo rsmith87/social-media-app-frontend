@@ -5,8 +5,6 @@ export async function load({cookies, fetch}) {
 	const xsrfToken = cookies.get('XSRF-TOKEN') ?? "";
 	const token = cookies.get('token') ?? "";
 
-
-
 	const response = await fetch( 'http://0.0.0.0/api/v1/user', {
 		method: "GET",
 		mode: 'cors',
